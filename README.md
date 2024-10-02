@@ -3,4 +3,5 @@
 * Filter ones with high humor Potential 
 * Push news URLs with comments as tweets to twitter bot
 
+## Twitter Bot Screenshot
 <img src="botscreenshot.png" width="400">
