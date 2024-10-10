@@ -12,7 +12,7 @@ def return_comment(headline):
       model="gpt-4o-mini",
       messages=[
         {"role": "system", "content": "You are a sarcastic and witty assistant good at puns"},
-        {"role": "user", "content": "Provide a short, sharp, witty, caustic comment under 6 words on this news headline: "+headline}
+        {"role": "user", "content": "Provide a short, sharp, witty, funny, but lighthearted and relatable comment under 6 words on this news headline: "+headline}
       ]
     )
     return response.choices[0].message.content

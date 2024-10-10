@@ -8,7 +8,7 @@ articles = get_top_news_from_india()
 for article in articles:
     headline = article['title']
     humour_potential = get_joke_potential_score(headline)
-    if len(headline)<80 and humour_potential>=5:
+    if len(headline)<80: #and humour_potential>=5:
         url = article['url']
         comment = return_comment(headline)
         tweet = comment+' '+url
